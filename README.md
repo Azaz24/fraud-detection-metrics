@@ -64,3 +64,7 @@ It goes beyond accuracy and evaluates the model using multiple classification me
 ---
 
 ## 📂 Project Structure
+## 📂 Project Structure
+fraud-detection-metrics/
+│── fraud_detection.py
+│── README.md
