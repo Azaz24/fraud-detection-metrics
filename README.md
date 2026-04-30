@@ -68,4 +68,53 @@ It goes beyond accuracy and evaluates the model using multiple classification me
 fraud-detection-metrics/
 │── fraud_detection.py
 │── README.md
+
 ```
+
+
+## 🚀 How to Run
+
+### 1. Install dependencies
+
+pip install pandas numpy scikit-learn
+
+### 2. Run the script
+python fraud_detection.py
+
+----
+
+## 📈 Sample Output
+
+=== Default Threshold (0.5) ===  
+Accuracy: 1.0  
+Precision: 1.0  
+Recall: 1.0  
+
+=== Threshold = 0.3 ===  
+Precision: 1.0  
+Recall: 1.0  
+
+ROC-AUC Score: 1.0
+
+----
+
+## 💡 Conclusion
+
+This project demonstrates how to evaluate machine learning models using multiple metrics instead of relying only on accuracy.  
+It highlights the importance of precision, recall, and ROC-AUC in real-world applications like fraud detection.
+
+----
+
+## 🔮 Future Improvements
+
+- Use a larger and real-world dataset  
+- Handle imbalanced data using techniques like SMOTE  
+- Try advanced models like Random Forest and XGBoost  
+- Perform hyperparameter tuning for better performance  
+
+----
+
+## 👤 Author
+
+Azaz Ahmed 
+Aspiring Data Analyst / Machine Learning Enthusiast
